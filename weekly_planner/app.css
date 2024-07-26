@@ -1,0 +1,107 @@
+@font-face {
+	font-family: StardewValley;
+	src: url("assets/Stardew_Valley.ttf");
+}
+
+body {
+	font-family: StardewValley;
+	background-color: rgb(185, 240, 255);
+	color:#F2AB27;
+	text-shadow: 1px 1px #BF7C2A;
+}
+
+h1 {
+	text-shadow: 2px 2px #BF7C2A;
+}
+
+.day-col {
+	width: calc(100% / 7);
+	float: left;
+}
+
+.day-col .title {
+	text-align: center;
+}
+
+.day-col .content {
+	position: relative;
+	height: 500px;
+	border: 1px solid #2E78A6;
+	border-right: none;
+	border-radius: 5px;
+}
+
+.day-col:last-child .content {
+	border-right: 1px solid #2E78A6;
+}
+
+.event-item {
+	position: absolute;
+	width: calc(100% - 2px);
+	padding-left: 2px;
+	font-size: 11px;
+	overflow-x: auto;
+	background: rgba(205, 247, 205);
+	cursor: pointer;
+	border-radius: 5px;
+	text-shadow: none;
+}
+
+#new_event_button {
+	float: right;
+	height: 30px;
+}
+
+#add_event_form {
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 250px);
+	right: calc(50% - 250px);
+	width: 500px;
+	height: auto;
+	padding: 25px;
+	background: rgb(205, 247, 205);
+	border: 2px solid #888888;
+	box-shadow: 1px 1px 3px #555555;
+	border-radius: 25px;
+}
+
+#add_event_form input, select{
+	display: block;
+	margin: 10px;
+}
+
+#submit_event {
+	margin: 15px;
+}
+
+button {
+	font-family: StardewValley;
+	color: #2ea650;
+	background-color: #c0ff9a;
+	border-radius: 5px;
+}
+
+#juminoForm {
+	float: right;
+	width: 250px;
+	height: 250px;
+}
+
+#chickenForm {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#junimoRow {
+	width: 175px;
+	height: 35px;
+}
+
+#vines {
+	padding-top: 20px;
+	margin-left: -8px;
+	width: 101%;
+	height: 100%;
+}
